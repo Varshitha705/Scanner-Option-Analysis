@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A+ Stocks & Options Scanner</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#22c55e;
+}
+
+h2{
+    color:#60a5fa;
+}
+
+ul{
+    line-height:1.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>A+ Stocks Scanner</h1>
+
+    <div class="card">
+        <h2>Options Entry & Alert Analysis</h2>
+
+        <h3>1. Alert Level = "Get Ready" Zone</h3>
+
+        <p>
+            Set alert 0.2%–0.5% below your breakout level.
+        </p>
+
+        <p>
+            Example:
+            Resistance = $100.50<br>
+            Alert = $100.30
+        </p>
+
+        <p>
+            This gives time to check volume and MACD before entering.
+        </p>
+
+        <h3>2. Entry Level = "Go" Trigger</h3>
+
+        <p>All 3 conditions must occur together:</p>
+
+        <ul>
+            <li><b>Price:</b> 5M candle closes above resistance and VWAP</li>
+            <li><b>Volume:</b> Volume greater than 2x average of previous 10 candles</li>
+            <li><b>MACD (8,17,9):</b> MACD crosses above signal and histogram turns green</li>
+        </ul>
+
+        <p>
+            Enter after the candle closes to avoid fake breakouts.
+        </p>
+
+        <h3>3. Do NOT Enter When</h3>
+
+        <ul>
+            <li>Price is only above the 9/21 EMA</li>
+            <li>POC remains above current price</li>
+            <li>Green candle forms on weak volume</li>
+        </ul>
+
+        <h3>15-Minute Breakout Setup</h3>
+
+        <ul>
+            <li>Draw last 15M swing high + VWAP</li>
+            <li>Alert 1 = Breakout level -1%</li>
+            <li>Alert 2 = Volume spike greater than 2x average</li>
+            <li>Entry = 5M close above level + MACD confirmation</li>
+        </ul>
+
+        <h3>Options Tip</h3>
+
+        <p>
+            Wait 5–10 minutes after a breakout candle begins instead of buying during the wick.
+            This can help avoid paying peak implied volatility.
+        </p>
+
+        <p>
+            Big candle chasing is risky. Theta decay and IV crush can reduce gains even when direction is correct.
+            Always use stops and proper position sizing.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
